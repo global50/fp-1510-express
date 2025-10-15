@@ -1,0 +1,31 @@
+This project is business social network web application with AI and SaaS functionality.
+
+Technical Stack & Design Principles:
+Stack: React, Vite, TypeScript, Tailwind CSS, Shadcn UI, Radix UI, Lucide icons.
+Styling: Clean, minimalistic, pleasant and aesthetic.
+Theming: Full dark, light, and system mode support.
+Accent Color: Blue-500.
+Consider integrating a library like Framer Motion for subtle, fluid animations and micro-interactions to enhance the overall user experience.
+
+Requirements:
+1. Card-Based Design System:
+All content must use a consistent card-based design system, leveraging Shadcn UI Card components. Implement appropriate shadows (shadow-sm, shadow-md) and hover effects (hover:shadow-md transition-shadow) for clear visual feedback. Ensure consistent padding (p-3, p-4) and spacing (space-y-4). All cards must be theme-aware, adapting between light and dark modes using CSS variables. Maintain consistent border radius (rounded-lg) and smooth transitions. Use blue-500 as the primary accent color and apply gradient backgrounds for decorative elements.
+2. Key Design Principles:
+- Component modularity and reusability
+- Consistent spacing and typography
+- Accessible color contrast ratios
+- Mobile-first responsive design
+3. Bolt should keep "README.md" file actual and update after significant changes and keep actually, including flows, supabase edge functions, etc.
+4. Ensure secure code and flows, main security, https, CORS, secure usage anon and service roles keys, safety work with session and tokens, Content Security Policy (CSP), XSS filter, and protection from XSS attack, CSRF and other attacks.
+5, Use supabase edge functions instead direct requests. And consider RLS for tables to secure access to data.
+6. Use "md" to define mobile view.
+
+Rules:
+1. Imports: After updating any code, you must list any new modules, components, or libraries that were imported.
+2. New Entity Scope: In your plan, when creating new entities (files, folders, components, etc.) or importing new libraries, you must designate their scope as:
+- main: For the core application or project-wide use.
+- shared: To be used across multiple features or apps.
+- app: Specific to a single application or feature.
+3. No Tables: Do not use tables in your answers.
+4. File Change Log: When providing a plan or after updating code, you must provide a complete list of files to be created, edited, or removed, including their full paths.
+5. Minor Edits: If a change is very small (one or two lines of code in one or two files), provide the exact, ready-to-use code lines for me to copy and paste.
